@@ -1,0 +1,529 @@
+{
+    "totalResults": 10,
+    "itemsPerPage": 10,
+    "startIndex": 1,
+    "schemas": [
+        "urn:ietf:params:scim:api:messages:2.0:ListResponse"
+    ],
+    "Resources": [
+        {
+            "schemas": [
+                "urn:ietf:params:scim:schemas:core:2.0:User",
+                "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User"
+            ],
+            "id": "2819c223-7f76-453a-919d-413861904646",
+            "externalId": "701984",
+            "userName": "bjensen@example.com",
+            "name": {
+                "formatted": "Ms. Barbara J Jensen, III",
+                "familyName": "Jensen",
+                "givenName": "Barbara",
+                "middleName": "Jane",
+                "honorificPrefix": "Ms.",
+                "honorificSuffix": "III"
+            },
+            "displayName": "Babs Jensen",
+            "nickName": "Babs",
+            "profileUrl": "https://login.example.com/bjensen",
+            "emails": [
+                {
+                    "value": "bjensen@example.com",
+                    "type": "work",
+                    "primary": true
+                },
+                {
+                    "value": "babs@jensen.org",
+                    "type": "home"
+                }
+            ],
+            "addresses": [
+                {
+                    "type": "work",
+                    "streetAddress": "100 Universal City Plaza",
+                    "locality": "Hollywood",
+                    "region": "CA",
+                    "postalCode": "91608",
+                    "country": "USA",
+                    "formatted": "100 Universal City Plaza\nHollywood, CA 91608 USA",
+                    "primary": true
+                },
+                {
+                    "type": "home",
+                    "streetAddress": "456 Hollywood Blvd",
+                    "locality": "Hollywood",
+                    "region": "CA",
+                    "postalCode": "91608",
+                    "country": "USA",
+                    "formatted": "456 Hollywood Blvd\nHollywood, CA 91608 USA"
+                }
+            ],
+            "phoneNumbers": [
+                {
+                    "value": "555-555-5555",
+                    "type": "work"
+                },
+                {
+                    "value": "555-555-4444",
+                    "type": "mobile"
+                }
+            ],
+            "ims": [
+                {
+                    "value": "someaimhandle",
+                    "type": "aim"
+                }
+            ],
+            "photos": [
+                {
+                    "value": "https://photos.example.com/profilephoto/72930000000Ccne/F",
+                    "type": "photo"
+                },
+                {
+                    "value": "https://photos.example.com/profilephoto/72930000000Ccne/T",
+                    "type": "thumbnail"
+                }
+            ],
+            "userType": "Employee",
+            "title": "Tour Guide",
+            "preferredLanguage": "en-US",
+            "locale": "en-US",
+            "timezone": "America/Los_Angeles",
+            "active": true,
+            "password": "t1meMa$heen",
+            "groups": [
+                {
+                    "value": "e9e30dba-f08f-4109-8486-d5c6a331660a",
+                    "$ref": "https://example.com/v2/Groups/e9e30dba-f08f-4109-8486-d5c6a331660a",
+                    "display": "Tour Guides"
+                },
+                {
+                    "value": "fc348aa8-3835-40eb-a20b-c726e15c55b5",
+                    "$ref": "https://example.com/v2/Groups/fc348aa8-3835-40eb-a20b-c726e15c55b5",
+                    "display": "Employees"
+                },
+                {
+                    "value": "71ddacd2-a8e7-49b8-a5db-ae50d0a5bfd7",
+                    "$ref": "https://example.com/v2/Groups/71ddacd2-a8e7-49b8-a5db-ae50d0a5bfd7",
+                    "display": "US Employees"
+                }
+            ],
+            "x509Certificates": [
+                {
+                    "value": "MIIDQzCCAqygAwIBAgICEAAwDQYJKoZIhvcNAQEFBQAwTjELMAkGA1UEBhMCVVMx...<certificate data>"
+                }
+            ],
+            "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User": {
+                "employeeNumber": "701984",
+                "costCenter": "4130",
+                "organization": "Universal Studios",
+                "division": "Theme Park",
+                "department": "Tour Operations",
+                "manager": {
+                    "value": "26118915-6090-4610-87e4-49d8ca9f808d",
+                    "$ref": "../Users/26118915-6090-4610-87e4-49d8ca9f808d",
+                    "displayName": "John Smith",
+                    "email": "john.smith@universalstudios.com",
+                    "title": "Tour Operations Manager"
+                }
+            },
+            "meta": {
+                "resourceType": "User",
+                "created": "2010-01-23T04:56:22Z",
+                "lastModified": "2011-05-13T04:42:34Z",
+                "version": "W/\"a330bc54f0671c9\"",
+                "location": "https://example.com/v2/Users/2819c223-7f76-453a-919d-413861904646"
+            }
+        },
+        {
+            "schemas": [
+                "urn:ietf:params:scim:schemas:core:2.0:User",
+                "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User"
+            ],
+            "id": "9d916490-7904-40da-8ecf-ec142ba9c0af",
+            "meta": {
+                "created": "2024-11-24T19:50:30+00:00",
+                "lastModified": "2024-11-24T19:50:30+00:00",
+                "location": "https:\/\/api.scim.dev\/scim\/v2\/Users\/9d916490-7904-40da-8ecf-ec142ba9c0af",
+                "resourceType": "User",
+                "version": "W\/\"297d21f3a9aeefb23459c5f5619609abee8b74b7\""
+            },
+            "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User": {
+                "employeeNumber": "212705"
+            },
+            "userName": "Lance_Schmidt",
+            "name": {
+                "formatted": "Lance Schmidt",
+                "familyName": "Schmidt",
+                "givenName": "Lance"
+            },
+            "active": false,
+            "emails": [
+                {
+                    "value": "Lance_Schmidt@example.local",
+                    "type": "other",
+                    "primary": true
+                }
+            ],
+            "groups": [
+                {
+                    "value": "9d916495-910f-4514-8ace-022bf94fad75",
+                    "$ref": "https:\/\/api.scim.dev\/scim\/v2\/Group\/9d916495-910f-4514-8ace-022bf94fad75",
+                    "display": "games_orchestrator"
+                }
+            ]
+        },
+        {
+            "schemas": [
+                "urn:ietf:params:scim:schemas:core:2.0:User",
+                "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User"
+            ],
+            "id": "9d916490-9f6f-4315-8728-c105132c90b4",
+            "meta": {
+                "created": "2024-11-24T19:50:30+00:00",
+                "lastModified": "2024-11-24T19:50:30+00:00",
+                "location": "https:\/\/api.scim.dev\/scim\/v2\/Users\/9d916490-9f6f-4315-8728-c105132c90b4",
+                "resourceType": "User",
+                "version": "W\/\"3243ac0e3145e55e98a9903207cf3d915b9dd7ae\""
+            },
+            "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User": {
+                "employeeNumber": "724114"
+            },
+            "userName": "Frederique.Lind",
+            "name": {
+                "formatted": "Frederique Lind",
+                "familyName": "Lind",
+                "givenName": "Frederique"
+            },
+            "active": false,
+            "emails": [
+                {
+                    "value": "Frederique_Lind57@example.local",
+                    "type": "other",
+                    "primary": true
+                }
+            ],
+            "groups": [
+                {
+                    "value": "9d916495-1559-4f38-92fa-42383c2fbe6d",
+                    "$ref": "https:\/\/api.scim.dev\/scim\/v2\/Group\/9d916495-1559-4f38-92fa-42383c2fbe6d",
+                    "display": "sports_facilitator"
+                },
+                {
+                    "value": "9d916495-df0d-4210-92b6-7a95721cc560",
+                    "$ref": "https:\/\/api.scim.dev\/scim\/v2\/Group\/9d916495-df0d-4210-92b6-7a95721cc560",
+                    "display": "sports_director"
+                }
+            ]
+        },
+        {
+            "schemas": [
+                "urn:ietf:params:scim:schemas:core:2.0:User",
+                "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User"
+            ],
+            "id": "9d916490-bf93-483c-8ef3-eb292ad2f942",
+            "meta": {
+                "created": "2024-11-24T19:50:30+00:00",
+                "lastModified": "2024-11-24T19:50:30+00:00",
+                "location": "https:\/\/api.scim.dev\/scim\/v2\/Users\/9d916490-bf93-483c-8ef3-eb292ad2f942",
+                "resourceType": "User",
+                "version": "W\/\"3a427af6e007e4258d578c3faf40d48fb83253bf\""
+            },
+            "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User": {
+                "employeeNumber": "145077"
+            },
+            "userName": "Roy_Ebert",
+            "name": {
+                "formatted": "Roy Ebert",
+                "familyName": "Ebert",
+                "givenName": "Roy"
+            },
+            "active": false,
+            "emails": [
+                {
+                    "value": "Roy.Ebert49@example.local",
+                    "type": "other",
+                    "primary": true
+                }
+            ],
+            "groups": [
+                {
+                    "value": "9d916494-f164-4e85-afd3-8ba93d7884c9",
+                    "$ref": "https:\/\/api.scim.dev\/scim\/v2\/Group\/9d916494-f164-4e85-afd3-8ba93d7884c9",
+                    "display": "sports_orchestrator"
+                },
+                {
+                    "value": "9d916494-d1b5-47ac-9133-fae3439d034a",
+                    "$ref": "https:\/\/api.scim.dev\/scim\/v2\/Group\/9d916494-d1b5-47ac-9133-fae3439d034a",
+                    "display": "shoes_architect"
+                },
+                {
+                    "value": "9d916495-5551-44c9-8276-10e92efe2297",
+                    "$ref": "https:\/\/api.scim.dev\/scim\/v2\/Group\/9d916495-5551-44c9-8276-10e92efe2297",
+                    "display": "electronics_developer"
+                }
+            ]
+        },
+        {
+            "schemas": [
+                "urn:ietf:params:scim:schemas:core:2.0:User",
+                "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User"
+            ],
+            "id": "9d916490-de2b-4ef9-bbec-0a5bcfee6215",
+            "meta": {
+                "created": "2024-11-24T19:50:30+00:00",
+                "lastModified": "2024-11-24T19:50:30+00:00",
+                "location": "https:\/\/api.scim.dev\/scim\/v2\/Users\/9d916490-de2b-4ef9-bbec-0a5bcfee6215",
+                "resourceType": "User",
+                "version": "W\/\"1907df2238d0e4c792dbba967a12ea636d52043d\""
+            },
+            "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User": {
+                "employeeNumber": "436510"
+            },
+            "userName": "Paula_Kris",
+            "name": {
+                "formatted": "Paula Kris",
+                "familyName": "Kris",
+                "givenName": "Paula"
+            },
+            "active": false,
+            "emails": [
+                {
+                    "value": "Paula.Kris74@example.local",
+                    "type": "other",
+                    "primary": true
+                }
+            ],
+            "groups": []
+        },
+        {
+            "schemas": [
+                "urn:ietf:params:scim:schemas:core:2.0:User",
+                "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User"
+            ],
+            "id": "9d916491-0188-496d-8135-651721e96984",
+            "meta": {
+                "created": "2024-11-24T19:50:30+00:00",
+                "lastModified": "2024-11-24T19:50:30+00:00",
+                "location": "https:\/\/api.scim.dev\/scim\/v2\/Users\/9d916491-0188-496d-8135-651721e96984",
+                "resourceType": "User",
+                "version": "W\/\"ff3f0d6bb486b8bba817a3a84261fd2ec4e15e3b\""
+            },
+            "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User": {
+                "employeeNumber": "139611"
+            },
+            "userName": "Haven.Dare77",
+            "name": {
+                "formatted": "Haven Dare",
+                "familyName": "Dare",
+                "givenName": "Haven"
+            },
+            "active": false,
+            "emails": [
+                {
+                    "value": "Haven_Dare18@example.local",
+                    "type": "other",
+                    "primary": true
+                }
+            ],
+            "groups": [
+                {
+                    "value": "9d916495-1559-4f38-92fa-42383c2fbe6d",
+                    "$ref": "https:\/\/api.scim.dev\/scim\/v2\/Group\/9d916495-1559-4f38-92fa-42383c2fbe6d",
+                    "display": "sports_facilitator"
+                }
+            ]
+        },
+        {
+            "schemas": [
+                "urn:ietf:params:scim:schemas:core:2.0:User",
+                "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User"
+            ],
+            "id": "9d916491-2492-4262-bee7-cee41bd98bce",
+            "meta": {
+                "created": "2024-11-24T19:50:30+00:00",
+                "lastModified": "2024-11-24T19:50:30+00:00",
+                "location": "https:\/\/api.scim.dev\/scim\/v2\/Users\/9d916491-2492-4262-bee7-cee41bd98bce",
+                "resourceType": "User",
+                "version": "W\/\"a549fad7019574e58eeac36b2e8444e73af4e1e7\""
+            },
+            "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User": {
+                "employeeNumber": "338351"
+            },
+            "userName": "Shirley_Kerluke7",
+            "name": {
+                "formatted": "Shirley Kerluke",
+                "familyName": "Kerluke",
+                "givenName": "Shirley"
+            },
+            "active": false,
+            "emails": [
+                {
+                    "value": "Shirley.Kerluke@example.local",
+                    "type": "other",
+                    "primary": true
+                }
+            ],
+            "groups": [
+                {
+                    "value": "9d916495-5551-44c9-8276-10e92efe2297",
+                    "$ref": "https:\/\/api.scim.dev\/scim\/v2\/Group\/9d916495-5551-44c9-8276-10e92efe2297",
+                    "display": "electronics_developer"
+                },
+                {
+                    "value": "9d916494-d1b5-47ac-9133-fae3439d034a",
+                    "$ref": "https:\/\/api.scim.dev\/scim\/v2\/Group\/9d916494-d1b5-47ac-9133-fae3439d034a",
+                    "display": "shoes_architect"
+                }
+            ]
+        },
+        {
+            "schemas": [
+                "urn:ietf:params:scim:schemas:core:2.0:User",
+                "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User"
+            ],
+            "id": "9d916491-40a3-4766-88b8-ba74bfc8a4d9",
+            "meta": {
+                "created": "2024-11-24T19:50:30+00:00",
+                "lastModified": "2024-11-24T19:50:30+00:00",
+                "location": "https:\/\/api.scim.dev\/scim\/v2\/Users\/9d916491-40a3-4766-88b8-ba74bfc8a4d9",
+                "resourceType": "User",
+                "version": "W\/\"8659f329fe48ffd6a60ef539149b8a5feb2f7c34\""
+            },
+            "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User": {
+                "employeeNumber": "126641"
+            },
+            "userName": "Lexie.Klocko",
+            "name": {
+                "formatted": "Lexie Klocko",
+                "familyName": "Klocko",
+                "givenName": "Lexie"
+            },
+            "active": false,
+            "emails": [
+                {
+                    "value": "Lexie.Klocko4@example.local",
+                    "type": "other",
+                    "primary": true
+                }
+            ],
+            "groups": [
+                {
+                    "value": "9d916495-3595-493d-9c21-db4beba98635",
+                    "$ref": "https:\/\/api.scim.dev\/scim\/v2\/Group\/9d916495-3595-493d-9c21-db4beba98635",
+                    "display": "sports_engineer"
+                },
+                {
+                    "value": "9d916495-5551-44c9-8276-10e92efe2297",
+                    "$ref": "https:\/\/api.scim.dev\/scim\/v2\/Group\/9d916495-5551-44c9-8276-10e92efe2297",
+                    "display": "electronics_developer"
+                }
+            ]
+        },
+        {
+            "schemas": [
+                "urn:ietf:params:scim:schemas:core:2.0:User",
+                "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User"
+            ],
+            "id": "9d916491-5e55-4de5-970d-ac4f2918dd1c",
+            "meta": {
+                "created": "2024-11-24T19:50:30+00:00",
+                "lastModified": "2024-11-24T19:50:30+00:00",
+                "location": "https:\/\/api.scim.dev\/scim\/v2\/Users\/9d916491-5e55-4de5-970d-ac4f2918dd1c",
+                "resourceType": "User",
+                "version": "W\/\"5c8649c414cd384138d467476d2741fb9986f67f\""
+            },
+            "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User": {
+                "employeeNumber": "482371"
+            },
+            "userName": "Lorenza.Lynch27",
+            "name": {
+                "formatted": "Lorenza Lynch",
+                "familyName": "Lynch",
+                "givenName": "Lorenza"
+            },
+            "active": false,
+            "emails": [
+                {
+                    "value": "Lorenza_Lynch18@example.local",
+                    "type": "other",
+                    "primary": true
+                }
+            ],
+            "groups": [
+                {
+                    "value": "9d916495-df0d-4210-92b6-7a95721cc560",
+                    "$ref": "https:\/\/api.scim.dev\/scim\/v2\/Group\/9d916495-df0d-4210-92b6-7a95721cc560",
+                    "display": "sports_director"
+                },
+                {
+                    "value": "9d916495-7676-4397-ab13-a378075fd5b1",
+                    "$ref": "https:\/\/api.scim.dev\/scim\/v2\/Group\/9d916495-7676-4397-ab13-a378075fd5b1",
+                    "display": "computers_liaison"
+                },
+                {
+                    "value": "9d916495-c4ab-48bf-8ba1-c957c74f6441",
+                    "$ref": "https:\/\/api.scim.dev\/scim\/v2\/Group\/9d916495-c4ab-48bf-8ba1-c957c74f6441",
+                    "display": "home_representative"
+                },
+                {
+                    "value": "9d916495-3595-493d-9c21-db4beba98635",
+                    "$ref": "https:\/\/api.scim.dev\/scim\/v2\/Group\/9d916495-3595-493d-9c21-db4beba98635",
+                    "display": "sports_engineer"
+                }
+            ]
+        },
+        {
+            "schemas": [
+                "urn:ietf:params:scim:schemas:core:2.0:User",
+                "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User"
+            ],
+            "id": "9d916491-83ac-4b8f-87aa-044a8c539056",
+            "meta": {
+                "created": "2024-11-24T19:50:30+00:00",
+                "lastModified": "2024-11-24T19:50:30+00:00",
+                "location": "https:\/\/api.scim.dev\/scim\/v2\/Users\/9d916491-83ac-4b8f-87aa-044a8c539056",
+                "resourceType": "User",
+                "version": "W\/\"ee640e73f532517d6d2a84583e71cb8f6e75c017\""
+            },
+            "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User": {
+                "employeeNumber": "998796"
+            },
+            "userName": "George_Ernser",
+            "name": {
+                "formatted": "George Ernser",
+                "familyName": "Ernser",
+                "givenName": "George"
+            },
+            "active": false,
+            "emails": [
+                {
+                    "value": "George.Ernser84@example.local",
+                    "type": "other",
+                    "primary": true
+                }
+            ],
+            "groups": [
+                {
+                    "value": "9d916495-910f-4514-8ace-022bf94fad75",
+                    "$ref": "https:\/\/api.scim.dev\/scim\/v2\/Group\/9d916495-910f-4514-8ace-022bf94fad75",
+                    "display": "games_orchestrator"
+                },
+                {
+                    "value": "9d916495-5551-44c9-8276-10e92efe2297",
+                    "$ref": "https:\/\/api.scim.dev\/scim\/v2\/Group\/9d916495-5551-44c9-8276-10e92efe2297",
+                    "display": "electronics_developer"
+                },
+                {
+                    "value": "9d916495-df0d-4210-92b6-7a95721cc560",
+                    "$ref": "https:\/\/api.scim.dev\/scim\/v2\/Group\/9d916495-df0d-4210-92b6-7a95721cc560",
+                    "display": "sports_director"
+                },
+                {
+                    "value": "9d916495-1559-4f38-92fa-42383c2fbe6d",
+                    "$ref": "https:\/\/api.scim.dev\/scim\/v2\/Group\/9d916495-1559-4f38-92fa-42383c2fbe6d",
+                    "display": "sports_facilitator"
+                }
+            ]
+        }
+    ]
+}
