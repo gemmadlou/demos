@@ -62,3 +62,11 @@ Okta Integration using the `./scim-server` demo.
 | meta.version                                                                   | W/"a330bc54f0671c9"                                                |        |
 | meta.location                                                                  | https://example.com/v2/Users/2819c223-7f76-453a-919d-413861904646  |        |
 
+## Provisioning set up
+
+<img width="1512" alt="image" src="https://github.com/user-attachments/assets/e42d4fa1-0401-42c8-888f-78e9fa5384a7" />
+
+<img width="1512" alt="image" src="https://github.com/user-attachments/assets/0f7c6b5b-3549-45ad-bdd5-82946b8b73d3" />
+
+
+
