@@ -68,5 +68,10 @@ Okta Integration using the `./scim-server` demo.
 
 <img width="1512" alt="image" src="https://github.com/user-attachments/assets/0f7c6b5b-3549-45ad-bdd5-82946b8b73d3" />
 
+<img width="778" alt="image" src="https://github.com/user-attachments/assets/8d8fdf7c-f689-4943-ae45-e30351634265" />
+
+<img width="1036" alt="image" src="https://github.com/user-attachments/assets/8e6060f7-b1a8-4f28-811e-48d666cd513b" />
+
+
 
 
